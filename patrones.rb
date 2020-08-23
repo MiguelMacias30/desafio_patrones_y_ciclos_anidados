@@ -1,3 +1,4 @@
+#letra I 
 n = ARGV[0].to_i
 
 n.times do
@@ -8,6 +9,27 @@ print "\n"
 (n -2).times do
   print " "
   (n -4).times do
+    print " "
+  end
+  print "*"
+  print "\n"
+end
+
+n.times do
+  print "*"
+end
+
+#cuadrado
+n = ARGV[0].to_i
+
+n.times do
+  print "*"
+end
+print "\n"
+
+(n - 2).times do
+  print "*"
+  (n - 2).times do
     print " "
   end
   print "*"
